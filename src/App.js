@@ -18,13 +18,13 @@ function App() {
       <Popup id="subscribe" heading="Subscribe now!" button="Pay now" />
       <Popup id="login" heading="Welcome Back!!!" button="Log-in" />
 
-      <Router basename="/">
+      <Router basename="/News-Pool">
         <Navbar />
         <LoadingBar color="#f11946" progress={progress} height={3} />
         <Routes>
           <Route
             exact
-            path="/"
+            path="/News-Pool"
             element={
               <News
                 setProgress={setProgress}
