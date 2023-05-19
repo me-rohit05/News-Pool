@@ -18,7 +18,7 @@ function App() {
       <Popup id="subscribe" heading="Subscribe now!" button="Pay now" />
       <Popup id="login" heading="Welcome Back!!!" button="Log-in" />
 
-      <Router>
+      <Router basename="/">
         <Navbar />
         <LoadingBar color="#f11946" progress={progress} height={3} />
         <Routes>
